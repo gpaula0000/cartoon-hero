@@ -1,6 +1,22 @@
+@font-face {
+    font-family: 'Migra';
+    font-weight: 600;
+    src: local('roboto black');
+    src: url(assets/fonts/Migra-Extrabold.woff2) format('woff2');
+    src: url(assets/fonts/Migra-Extrabold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Migra';
+    font-weight: 300;
+    src: local('roboto light');
+    src: url(assets/fonts/Migra-Extralight.woff2) format('woff2');
+    src: url(assets/fonts/Migra-Extralight.woff) format('woff');
+}
+
 body{
    margin: 0; 
-   font-family: 'Helvetica', 'Arial', sans-serif;
+   font-family: 'Migra', 'Roboto', sans-serif;
    font-size: 18px;
    line-height: 20px;
 }
@@ -11,7 +27,7 @@ header{
     padding-bottom: 50px;
 }
 h1, h2{
-    font-family: 'Caprasimo', serif;
+    font-family: 'Migra', sans-serif;
 }
 header h1{
     color: blueviolet;
